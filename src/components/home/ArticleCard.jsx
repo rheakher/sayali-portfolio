@@ -1,20 +1,22 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React from "react";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Skeleton from "react-loading-skeleton";
-import axios from "axios";
+import Button from 'react-bootstrap/Button';
+
 
 const ArticleCard = ({ value }) => {
   const {
     title,
-    publisher
+    publisher,
+    link
   } = value;
   return (
     <Col md={6}>
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
-          <Card.Title as="h5">{title || <Skeleton />} </Card.Title>
-          <Card.Text>{(!publisher) ? "Hello" : publisher || <Skeleton count={3} />} </Card.Text>
+          <Card.Title as="h6">{title || <Skeleton />} </Card.Title>
+          <Button variant="dark" href="link">{publisher}</Button>
         </Card.Body>
       </Card>
     </Col>
