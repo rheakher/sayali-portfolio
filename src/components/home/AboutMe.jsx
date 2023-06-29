@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 import { Jumbotron } from "./migration";
 
 
@@ -8,7 +7,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
         <Jumbotron id="aboutme" className="m-0">
           <div className="container row">
             <div className="col-5 d-none d-lg-block align-self-center">
-                <img className=" bg-white mb-3" src={link} alt="profile picture"/>
+                <img className=" bg-white mb-3" src={link} alt="profile"/>
             </div>
             <div className={`col-lg ? "7" : "12"}`}>
               <h2 className="display-4 mb-5 text-center">{heading}</h2>

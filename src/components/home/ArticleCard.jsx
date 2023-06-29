@@ -16,7 +16,7 @@ const ArticleCard = ({ value }) => {
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
           <Card.Title as="h6">{title || <Skeleton />} </Card.Title>
-          <Button variant="dark" href="link">{publisher}</Button>
+          <Button variant="dark" href={link}>{publisher}</Button>
         </Card.Body>
       </Card>
     </Col>
