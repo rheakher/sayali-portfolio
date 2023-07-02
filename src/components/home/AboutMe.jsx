@@ -6,8 +6,8 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
     return (
         <Jumbotron id="aboutme" className="m-0">
           <div className="container row">
-            <div className="col-5 d-none d-lg-block align-self-center">
-                <img className=" bg-white mb-3" src={link} alt="profile"/>
+            <div className="col-3 d-none d-lg-block align-self-center">
+                <img className=" bg-white mb-3" src={link} alt="profile" width ={imgSize} height={imgSize}/>
             </div>
             <div className={`col-lg ? "7" : "12"}`}>
               <h2 className="display-4 mb-5 text-center">{heading}</h2>

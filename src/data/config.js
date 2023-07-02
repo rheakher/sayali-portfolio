@@ -29,8 +29,8 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  //imageLink: require("../assets/img/sayali.jpeg"),
-  imageSize: 375,
+  imageLink: require("../assets/img/sayali.jpeg"),
+  imageSize: 250,
   message: "Recent graduate with a Master of Science in Global Affairs, excited to continue my career in Digital Marketing Strategy and Brand Marketing. Expert in managing profiles on social media platforms like YouTube, Twitter and LinkedIn. Successful in expanding online presence through personalised interactions with followers."
   //resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
