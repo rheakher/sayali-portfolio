@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sayali-portfolio/static/css/main.fe927caf.css",
+    "main.js": "/sayali-portfolio/static/js/main.d9536e49.js",
+    "static/js/787.e0b722b8.chunk.js": "/sayali-portfolio/static/js/787.e0b722b8.chunk.js",
+    "index.html": "/sayali-portfolio/index.html",
+    "main.fe927caf.css.map": "/sayali-portfolio/static/css/main.fe927caf.css.map",
+    "main.d9536e49.js.map": "/sayali-portfolio/static/js/main.d9536e49.js.map",
+    "787.e0b722b8.chunk.js.map": "/sayali-portfolio/static/js/787.e0b722b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe927caf.css",
+    "static/js/main.d9536e49.js"
+  ]
+}
