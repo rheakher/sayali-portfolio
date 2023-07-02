@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.a480807b.css",
-    "main.js": "/static/js/main.ceeff12e.js",
-    "static/js/787.e0b722b8.chunk.js": "/static/js/787.e0b722b8.chunk.js",
-    "static/media/sayali.jpeg": "/static/media/sayali.8f3f40b9631264ec82f6.jpeg",
-    "index.html": "/index.html",
-    "main.a480807b.css.map": "/static/css/main.a480807b.css.map",
-    "main.ceeff12e.js.map": "/static/js/main.ceeff12e.js.map",
-    "787.e0b722b8.chunk.js.map": "/static/js/787.e0b722b8.chunk.js.map"
+    "main.css": "/sayali-portfolio/static/css/main.a480807b.css",
+    "main.js": "/sayali-portfolio/static/js/main.7094efd3.js",
+    "static/js/787.e0b722b8.chunk.js": "/sayali-portfolio/static/js/787.e0b722b8.chunk.js",
+    "static/media/sayali.jpeg": "/sayali-portfolio/static/media/sayali.8f3f40b9631264ec82f6.jpeg",
+    "index.html": "/sayali-portfolio/index.html",
+    "main.a480807b.css.map": "/sayali-portfolio/static/css/main.a480807b.css.map",
+    "main.7094efd3.js.map": "/sayali-portfolio/static/js/main.7094efd3.js.map",
+    "787.e0b722b8.chunk.js.map": "/sayali-portfolio/static/js/787.e0b722b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a480807b.css",
-    "static/js/main.ceeff12e.js"
+    "static/js/main.7094efd3.js"
   ]
 }
